@@ -63,4 +63,12 @@ function isNegative(num){
     else
     return true
 }
-console.log(isNegative(-31))
+console.log(isNegative(-31));
+
+// #8
+
+function triangleArea (height, base){
+    console.log("** question 8 **")
+    return (1/2)*base*height;
+}
+console.log(triangleArea(6,8));
