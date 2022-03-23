@@ -96,3 +96,10 @@ function largest(num1, num2, num3){
         return num3;
 }
 console.log(largest(41,108,86));
+
+function printTime(){
+    let currentDate = new Date();
+    let time = "Current Time:"+ currentDate.getHours()+":"+ currentDate.getMinutes()+"."+currentDate.getSeconds();
+    return time
+}
+console.log(printTime())
