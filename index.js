@@ -76,9 +76,23 @@ console.log(triangleArea(6,8));
 //9
 function betweenTwentyAndFourty(num){
    console.log("Question 9")
-    if(num>20 && num<40){
+    if(num>20 && num<100){
         return true
     }else 
     return false
 }
 console.log(betweenTwentyAndFourty(21))
+
+// #10
+function largest(num1, num2, num3){
+    console.log("** Question 10 **")
+    if(num1 > num2 && num1 > num3){
+        return num1;
+    }
+    else if (num2> num1 && num1 > num3){
+        return num2;
+    }
+    else 
+        return num3;
+}
+console.log(largest(41,108,86));
