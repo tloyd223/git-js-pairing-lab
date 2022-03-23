@@ -54,7 +54,7 @@ function add(num1, num2){
         return num1+num2;
 }
 console.log(add(5,5));
-
+//7
 function isNegative(num){
     console.log("question 7")
     if(num>=0){
@@ -72,3 +72,13 @@ function triangleArea (height, base){
     return (1/2)*base*height;
 }
 console.log(triangleArea(6,8));
+
+//9
+function betweenTwentyAndFourty(num){
+   console.log("Question 9")
+    if(num>20 && num<40){
+        return true
+    }else 
+    return false
+}
+console.log(betweenTwentyAndFourty(21))
