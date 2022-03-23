@@ -36,3 +36,9 @@ function untilNum(num){
     }
 }
 untilNum(10);
+
+function multiply(num1,num2){
+    console.log("Question 5")
+    return num1*num2
+}
+console.log(multiply(7,5))
