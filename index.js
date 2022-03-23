@@ -26,4 +26,13 @@ function multipleOfThreeOrFive(){
         }
     }
 }
-multipleOfThreeOrFive()
+multipleOfThreeOrFive();
+
+// #4
+function untilNum(num){
+    console.log("** question 4 **")
+    for(let i=1; i<= num; i++){
+        console.log(i);
+    }
+}
+untilNum(10);
