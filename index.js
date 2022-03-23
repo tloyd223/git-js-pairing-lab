@@ -97,9 +97,41 @@ function largest(num1, num2, num3){
 }
 console.log(largest(41,108,86));
 
+// #11
+console.log("** question 11 **")
 function printTime(){
-    let currentDate = new Date();
-    let time = "Current Time:"+ currentDate.getHours()+":"+ currentDate.getMinutes()+"."+currentDate.getSeconds();
-    return time
+    let currentTime = new Date();
+    let time = "Current Time: "+ (currentTime.getHours()-4 ) +":"+ currentTime.getMinutes()+":"+currentTime.getSeconds();
+    return time;
 }
-console.log(printTime())
+console.log(printTime());
+
+//#12
+console.log('** Question 12 **');
+function isLeapYear(year){
+    if((year%4 === 0 && year%100 != 0) || (year%400 === 0)){
+        return true
+    }
+    else 
+        return false;
+}
+console.log(isLeapYear(2000));
+ // #13
+ console.log('** Question 13 **');
+ function getExtention(str){
+     let index = 0;
+     let extArr = [];
+     for(let i=0; i<str.length; i++){
+         if(str[i] === '.'){
+            index = i;
+         }
+     }
+     for(let i=index; i<str.length; i++){
+         extArr.push(str[i]);
+     }
+     return extArr.join("");
+ }
+ console.log(getExtention('hello.txt'));
+
+
+
