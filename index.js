@@ -54,3 +54,13 @@ function add(num1, num2){
         return num1+num2;
 }
 console.log(add(5,5));
+
+function isNegative(num){
+    console.log("question 7")
+    if(num>=0){
+        return false
+    }
+    else
+    return true
+}
+console.log(isNegative(-31))
