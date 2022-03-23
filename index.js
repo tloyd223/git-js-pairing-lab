@@ -37,8 +37,20 @@ function untilNum(num){
 }
 untilNum(10);
 
+// #5
 function multiply(num1,num2){
     console.log("Question 5")
     return num1*num2
 }
 console.log(multiply(7,5))
+
+// #6
+function add(num1, num2){
+    console.log("** question 6 **")
+    if(num1 === num2){
+        return (num1+num2)*3;
+    }
+    else 
+        return num1+num2;
+}
+console.log(add(5,5));
