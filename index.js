@@ -145,5 +145,15 @@ console.log(absoluteNineteen(21));
 
 // #15
 console.log("** question 15 **");
-
+function switchLetters(str){
+    let emptyStr = '';
+    for(let i =0; i<str.length; i++){
+        if(i !=0 && i !=str.length-1){
+        emptyStr += str[i]
+        console.log(i);
+    }
+}
+    return str[str.length-1]+ emptyStr+ str[0];
+}
+console.log(switchLetters('anne'));
 
