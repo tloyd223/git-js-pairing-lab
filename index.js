@@ -131,7 +131,19 @@ console.log(isLeapYear(2000));
      }
      return extArr.join("");
  }
- console.log(getExtention('hello.txt'));
+ console.log(getExtention('apps.js'));
+ 
+ // #14
+ console.log("** question 14 **")
+ function absoluteNineteen(num){
+     let diff = num - 19;
+     if(num>19){
+         return diff*3;
+     }
+ }
+console.log(absoluteNineteen(21));
 
+// #15
+console.log("** question 15 **");
 
 
